@@ -1,0 +1,171 @@
+
+
+
+
+/* clients Home */
+#home-clients main {
+    padding: 2rem 0;
+  }
+  
+  #home-clients{
+    margin-top: 10rem;
+  }
+
+  #home-clients .tiny {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  #home-clients .swiper-container {
+    width: 100%;
+    /* height: 50%; */
+    position: relative;
+  }
+  
+  #home-clients .swiper-slide {
+    width: 20% !important;
+    height: 100% !important;
+  }
+  
+  #home-clients .swiper-slide img {
+    width: 100%;
+    box-shadow: 0px 0px 16px -4px gray;
+    margin: 1.5rem;
+    border-radius: 0.5rem;
+  }
+  
+  #home-clients .swiper-container.swiper--bottom:after {
+    animation-direction: reverse;
+  }
+  
+  #home-clients .swiper-wrapper {
+    -webkit-transition-timing-function: linear !important;
+    transition-timing-function: linear !important;
+    position: relative;
+    align-items: center;
+  }
+  
+  #home-clients .swiper-slide {
+    text-align: center;
+    font-size: 33px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: auto; */
+    position: relative;
+    /* overflow: hidden; */
+    padding: 0 1rem;
+  }
+  
+  @keyframes line-slide {
+    0% {
+      background-position: -5% 0;
+    }
+  
+    100% {
+      background-position: 100% 0;
+    }
+  }
+  
+  #home-clients h1 {
+    font-size: 3rem;
+    margin: 2rem 0 0rem 0;
+    z-index: 10;
+    margin-top: -6rem;
+    background: transparent;
+  }
+  
+  /* clients Home */
+  
+
+
+
+
+
+
+
+
+// ===================================================================================================================
+  
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  font-size: 2rem;
+  font-weight: 800;
+}
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+#testimonials .swiper-slide {
+  /* border: 1px solid rgb(212, 212, 212); */
+  padding: 2rem;
+  border-radius: 0.5rem;
+  line-height: 2rem;
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#testimonials .swiper-slide p {
+  width: 80%;
+  margin-top: -0.5rem;
+}
+
+#testimonials .testiImg img {
+  width: 10%;
+}
+
+#testimonials .first-quote {
+  width: 95%;
+  display: flex;
+  align-items: start;
+}
+
+#testimonials .second-quote {
+  width: 95%;
+  display: flex;
+  justify-content: end;
+  margin-top: -2rem;
+}
+
+#testimonials span img {
+  opacity: 0.1;
+  width: 8%;
+}
+
+#testimonials .second-quote img {
+  transform: rotate(180deg);
+}
+
+#testimonials p img {
+  width: 10%;
+  margin: 0 1rem;
+}
+
+#testimonials h1 {
+  font-size: 3rem;
+  margin: 2rem 0 2rem 0;
+  z-index: 10;
+  margin-top: -6rem;
+  background: transparent;
+}
+
+#testimonials h5 {
+  font-size: 1.2rem;
+}
+
+#testimonials h6 {
+  font-size: 0.9rem;
+}
+
+#testimonials i {
+  font-size: 3rem;
+  margin: 0 0.5rem;
+  color: #885220;
+}
